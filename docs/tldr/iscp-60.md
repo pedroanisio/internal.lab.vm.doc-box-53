@@ -1,4 +1,3 @@
-## ISCP-60 version
 
 ```c
 &v1.0.1;core=1.0,doc=1.2,infra=1.1,config=1.3;
