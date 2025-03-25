@@ -13,6 +13,9 @@ nav:
   - Maintenance:
     - Backup Procedures: maintenance/backups.md
     - Update Process: maintenance/updates.md
+  - TLDR:
+    - Sumary: tldr/tldr.md
+    - ISCP-60: tldr/iscp-60.md
 
 theme:
   name: material
