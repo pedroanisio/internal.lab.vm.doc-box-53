@@ -1,7 +1,6 @@
 ## ISCP-60 version
 
-```iscp60
-
+```c
 &v1.0.1;core=1.0,doc=1.2,infra=1.1,config=1.3;
 <@protocol{name:"ISCP-60", version:"1.0.1", domain:"infrastructure_documentation"}>
 
@@ -506,3 +505,4 @@
 </@context>
 
 &meta{author:"ISCP-60 Conversion", date:"2025-03-25", version:"1.0", purpose:"machine_interpretable_documentation", completeness:"full"}
+```
