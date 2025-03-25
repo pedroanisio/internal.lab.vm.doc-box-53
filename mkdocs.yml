@@ -19,7 +19,8 @@ nav:
 
 theme:
   name: material
-  logo: assets/debian.png
+  favicon: assets/images/favicon.svg
+  logo: assets/images/debian.png
   features:
     - content.code.copy
     - navigation.instant
