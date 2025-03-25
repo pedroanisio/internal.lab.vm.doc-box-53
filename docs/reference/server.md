@@ -1,17 +1,19 @@
-## 🖥️ `server.md` – Server Specifications: `doc-box-53`
+## 🖥️ Server Specifications: `doc-box-53`
 
-### Server Overview
+### Overview
 
 | Property       | Value              |
 |----------------|-------------------|
-| **Hypervisor** | Proxmox VE 8.0.4  |
+| **Hypervisor** | Proxmox VE 8.3.5 (pve-box-2)  |
 | **vCPU**       | 2                 |
 | **RAM**        | 1024 GiB          |
-| **Storage**    | 50 GiB SSD        |
-| **OS**         | Debian 12         |
+| **Storage**    | 64 GiB SSD        |
+| **OS**         | Debian 12.10         |
 | **IP**         | 10.10.10.53      |
 | **Hostname**   | doc-box-53        |
 | **Domain**     | internal.lab.vm   |
+| **POOL**     | mngmt   |
+| **Backup**     | Daily @ 11:37 UTC  |
 
 ### Description
 
@@ -32,6 +34,5 @@ topics, mapped to subdomains or internal routes.
 
 ### Maintenance Notes
 
-- Weekly auto-update of images (Sunday @ 2 AM)
 - Git-push triggers for rebuild and restart
-- Backups stored at `/srv/backups` (daily)
+- Backups stored at `pbs-box-73`

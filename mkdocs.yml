@@ -5,8 +5,14 @@ nav:
   - Reference:
     - Purpose: reference/purpose.md
     - Server Specifications: reference/server.md
+    - Application: reference/application.md
     - Guidelines: reference/guidelines.md
     - Templates: reference/templates.md
+  - Services:
+    - Docker Containers: services/docker.md
+  - Maintenance:
+    - Backup Procedures: maintenance/backups.md
+    - Update Process: maintenance/updates.md
 
 theme:
   name: material

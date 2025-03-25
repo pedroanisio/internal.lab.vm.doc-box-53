@@ -1,35 +1,46 @@
-# doc-box-53 Documentation
+# `doc-box-53` — Documentation Hub VM
 
-Welcome to the documentation for `doc-box-53`, part of the `internal.lab.vm`
-homelab infrastructure.
+Welcome to the documentation for **`doc-box-53`**, part of the `internal.lab.vm` homelab infrastructure.
 
-## Overview
+## 📌 Overview
 
-This VM serves as the central documentation hub for our homelab infrastructure.
-It hosts multiple `MkDocs` instances using Docker containers, with each container
-representing documentation for a specific VM or service.
+`doc-box-53` acts as the central **documentation hub** for the homelab. It hosts multiple MkDocs Material instances using Docker, with each container dedicated to a specific VM or service.
 
-## Quick Facts
+📍 Access via: [https://docs.local.arc4d3.io](https://docs.local.arc4d3.io)
 
-- **Hostname**: doc-box-53
-- **IP Address**: 10.10.10.53
-- **Primary Services**: MkDocs Material, Traefik, Watchtower
-- **OS**: Debian 12
+---
 
-## Navigation
+## ⚙️ Quick Facts
 
-Use the sidebar to navigate through the documentation:
+| Key             | Value                          |
+|----------------|--------------------------------|
+| **Hostname**   | `doc-box-53`                   |
+| **IP Address** | `10.10.10.53`                  |
+| **OS**         | Debian 12                      |
+| **Services**   | MkDocs Material, Watchtower    |
 
-- **Reference** - Technical specifications and configuration details
-- **Services** - Information about services running on this VM
-- **Maintenance** - Backup and maintenance procedures
+---
 
-## Recent Changes
+## 🧭 Navigation
 
-- March 2025: Initial documentation setup
-- March 2025: Added Traefik configuration
-- March 2025: Implemented Watchtower for automatic updates
+Use the MkDocs sidebar to browse through the following sections:
 
-## Contact
+- **Reference** — Specs, configs, and base setup
+- **Services** — Running services and their configurations
+- **Maintenance** — Backup strategy, updates, and health checks
 
-For issues or questions regarding this VM, contact admin@internal.lab.vm
+---
+
+## 📅 Recent Changes
+
+- **Mar 2025** – Initial documentation system deployed
+- **Mar 2025** – Traefik configuration added
+- **Mar 2025** – Watchtower enabled for automatic Docker updates
+
+---
+
+## 📬 Contact
+
+For issues, requests, or contributions regarding this VM:
+
+📧 `admin@internal.lab.vm`
