@@ -1,6 +1,7 @@
 ## ISCP-60 version
 
 ```iscp60
+
 &v1.0.1;core=1.0,doc=1.2,infra=1.1,config=1.3;
 <@protocol{name:"ISCP-60", version:"1.0.1", domain:"infrastructure_documentation"}>
 
