@@ -10,7 +10,7 @@ nav:
 
 theme:
   name: material
-  logo: assets/logo.png
+  logo: assets/debian.jpg
   features:
     - content.code.copy
     - navigation.instant

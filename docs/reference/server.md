@@ -15,7 +15,9 @@
 
 ### Description
 
-This VM (`doc-box-53`) acts as the **documentation hub** for the homelab. It runs Docker containers, each serving a different MkDocs instance for specific topics, mapped to subdomains or internal routes.
+This VM (`doc-box-53`) acts as the **documentation hub** for the homelab. It
+runs Docker containers, each serving a different MkDocs instance for specific
+topics, mapped to subdomains or internal routes.
 
 ### Services
 
@@ -33,5 +35,3 @@ This VM (`doc-box-53`) acts as the **documentation hub** for the homelab. It run
 - Weekly auto-update of images (Sunday @ 2 AM)
 - Git-push triggers for rebuild and restart
 - Backups stored at `/srv/backups` (daily)
-
----

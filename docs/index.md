@@ -1,15 +1,18 @@
 # doc-box-53 Documentation
 
-Welcome to the documentation for doc-box-53, part of the internal.lab.vm homelab infrastructure.
+Welcome to the documentation for `doc-box-53`, part of the `internal.lab.vm`
+homelab infrastructure.
 
 ## Overview
 
-This VM serves as the central documentation hub for our homelab infrastructure. It hosts multiple MkDocs instances using Docker containers, with each container representing documentation for a specific VM or service.
+This VM serves as the central documentation hub for our homelab infrastructure.
+It hosts multiple `MkDocs` instances using Docker containers, with each container
+representing documentation for a specific VM or service.
 
 ## Quick Facts
 
 - **Hostname**: doc-box-53
-- **IP Address**: 192.168.1.53
+- **IP Address**: 10.10.10.53
 - **Primary Services**: MkDocs Material, Traefik, Watchtower
 - **OS**: Debian 12
 
