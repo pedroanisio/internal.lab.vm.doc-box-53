@@ -1,5 +1,3 @@
-## Templates
-
 ## VM Documentation Template
 
 This template provides a standardized structure for documenting virtual machines in your homelab. Follow this structure for each VM to maintain consistency across your documentation.
